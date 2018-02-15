@@ -1,0 +1,125 @@
+/* Inside your style.css file... */
+@font-face {
+   font-family: Pacifico;
+   src: url("fonts/Pacifico");
+}
+
+body {
+   margin: 0;
+}
+
+header {
+   margin: 0 auto;
+   text-align: center;
+   font-size: 16px;
+   color: #FFFFFF;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   background: url('images/kayak-bkgd.jpg') no-repeat top;
+   background-size: cover;
+}
+
+header p {
+   text-transform: uppercase;
+   position: relative;
+   top: 50px;
+}
+
+header h1 {
+   font-size: 90px;
+   font-family: 'Pacifico', cursive;
+   font-weight: 400;
+}
+
+header span {
+   background-color: #0d0e0e;
+   padding:4px;
+}
+
+button {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-transform: uppercase;
+   padding: 10px;
+   background-color: #e2574c;
+   color: #FFFFFF;
+
+}
+
+
+section {
+   margin: 0 auto;
+   text-align: center;
+   }
+
+section h2{
+   margin-top: 30px;
+   color: #646464;
+   margin-bottom: 30px;
+}
+
+
+img {
+   width: 360px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+p {
+   
+   
+   
+}
+
+h1 {
+   
+   
+}
+
+h3 {
+         
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #c8c8c8;
+}
+
+li {
+ display: inline;
+}
+
+.nav{
+   background-color: black;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+
+.desktop-screen-size {
+   width: 1140px;
+}
+
+.mobile-screen-size {
+   width: 600px;
+}
+
+.display-inline {
+   display: inline;
+}
+
+/* starts here*/
+
+.site-header{
+   background-color: black;
+   color: white;
+   text-transform: uppercase;
+   position: fixed;
+   width: 100%;
+   z-index: 1000;
+
+}

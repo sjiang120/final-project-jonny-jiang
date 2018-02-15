@@ -1,0 +1,328 @@
+/* font-family */
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Karla-Italic';
+  src: url('fonts/Karla-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Karla-Bold';
+  src: url('fonts/Karla-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Karla-BoldItalic';
+  src: url('fonts/Karla-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico.ttf');
+}
+
+/* body css */
+
+body{
+   font-size: 16px;
+   font-family: 'Karla';
+   color: #2d2d2d;
+   margin: 0;
+}
+
+img{
+   max-width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+a:hover {
+   color: #b64036;
+}
+
+
+
+
+
+
+/* logo and navigation bar css */
+
+header{
+   background-color: black;
+   position: fixed;
+   padding-top: 8px;
+   padding-bottom: 9px;
+   top: 0px;
+   left: 0px;
+   right:0px;
+   
+}
+
+header ul{
+   list-style-type: none;
+   text-transform: uppercase;
+   padding: 13px 0;
+   margin: 0;
+   margin-right: 190px;
+   
+}
+
+nav ul li{
+   display: inline-block;
+   font-family: 'Karla-Bold';
+   margin-right: 2em;
+
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+
+}
+
+.logo{
+   max-height: 45px;
+   display: inline;
+   margin-left: 220px;
+}
+
+
+/* hero image, text in hero image, button in hero image css */
+
+.banner{
+   background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, .3) 0%,
+      rgba(0, 0, 0, .2) 50%,
+      rgba(0, 0, 0, .1) 100%
+    ), url('images/kayak-bkgd.jpg') no-repeat top;
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+   text-align: center;
+   padding: 170px 0 170px;
+   
+}
+
+.site-title span {
+  display: block;
+  color: white;
+}
+
+.enjoy-the {
+  font-family: 'Karla';
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.great-outdoors {
+  font-size: 4.5em;
+  font-family: 'Pacifico';
+  text-shadow: 1px 1px 2px #999;
+}
+
+.from-the-water {
+  font-size: 1.75em;
+  font-family: 'Pacifico';
+}
+
+.banner p {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  margin: 1em auto;
+  margin-bottom: 2.5em;
+  padding: 0.5em 4px;
+  max-width: 580px;
+  font-family: 'Karla';
+  font-size: 20px;
+}
+
+.button {
+  background-color: #e2574c;
+  border-radius: 2em;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.25em;
+  padding: 15px;
+}
+
+a.button {
+  color: white;
+}
+
+a.button:hover {
+   background: #b64036;
+}
+
+/* about section and 3 pictures css */
+
+.about-section-text {
+  text-align: center;
+}
+
+h2{
+  font-size: 2.9em;
+  font-family: "Pacifico";
+  color: #646464;
+  margin: 1em auto;
+}
+
+.about-section-text p{
+  max-width: 700px;
+  margin: 1em auto;
+  line-height: 2em;
+  margin-bottom: 3em;  
+}
+
+.three-images {
+  display: flex;  
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 220px; 
+  margin-right: 220px; 
+}
+
+.three-images img {
+  width: 31.5%;
+  margin: .5em 0;
+  box-shadow: 1px 0px 5px 1px #666;
+
+}
+
+/* rentals section, text and table css */
+
+.same-row{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#article-to-the-left{
+   margin-left: 220px;
+   margin-top: 0;
+}
+
+#table-to-the-right{
+   margin-right: 220px; 
+   margin-top: 0;
+}
+
+.rentals p{
+   max-width: 480px;
+   margin-bottom: 2em;
+}
+
+
+.rentals table, .rentals th, .rentals td {
+   border: 1px solid #c8c8c8;
+   border-collapse: collapse;
+
+ }
+
+.rentals table {
+  width: 35%;
+  
+}
+
+.rentals th {
+  background: #e6e6e6;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 0;
+}
+
+.rentals td {
+  width: 33%;
+  text-align: center;
+  padding: 0.7em;
+}
+
+.rentals td:first-child {
+  text-align: left;
+}
+
+.rentals tr:hover {
+  background-color: #fbf6d9;
+}
+
+.book-number {
+   color: #e2574c;
+}
+
+/* location section css */
+
+.location {
+text-align: center;
+}
+
+.googlemap{
+width:71%;
+align-items: center;
+height: 270px;
+margin-top: 0.5em;
+margin-bottom: 4em;
+align-items: center;
+}
+
+/* footer css */
+
+footer {
+  background: #2d2d2d;
+  color: white;
+  padding: 0em 220px;
+
+}
+
+footer article {
+   padding-top: 3em;
+   padding-bottom: 3em;
+   line-height: 1.5em;
+   display: inline
+}
+
+
+footer aside ul {
+   list-style: none;
+   padding-top: 3em;
+   padding-right: 4.2em;
+}
+
+footer aside ul li {
+   font-size: 1em;
+   line-height: 1.75em;
+   
+}
+
+
+.social-icon-width{
+   min-width: 20px;
+   margin-right: 10px;
+}
+
+
+.footer-white-text, footer article p a{
+  color: white;
+}
+
+#footer-grey-text{
+  color: #999;
+}
+
+.social {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+/* RWD - breakpoint for tablet: 600px css */
+
